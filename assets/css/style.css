@@ -164,7 +164,7 @@ nav.nav-main ul li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
-  width: 70vw;
+  width: 80vw;
   margin: auto;
 }
 
