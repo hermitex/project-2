@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+
+/* *********** Background Color *********** */
+.bg-dark{
+    background-color: #0a0a0a;
+}
+
 /* *********** Font Settings *********** */
 .text-secondary {
   color: #ffac12;
@@ -12,8 +18,8 @@
 .text-primary {
 }
 
-.text-light{
-    color: rgb(153, 146, 146);
+.text-light {
+  color: rgb(153, 146, 146);
 }
 
 li {
@@ -26,9 +32,9 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
-    color: #ffac12;;
-  }
+  text-decoration: none;
+  color: #ffac12;
+}
 
 /* *********** Button Settings *********** */
 .btn {
@@ -43,43 +49,54 @@ a:hover {
   padding: 0.3rem 1rem;
 }
 
-.btn.btn-secondary{
-    background-color: #0a0a0a;
-    padding: 0.3rem 1rem;
-    color: #fff;
-  }
-
-.hero-section{
-    background-image: url('../images/moving\ 1.png');
-    background-position: center;
-    background-size: cover;
-    height: 50rem;    
-    margin: 0 auto;
+.btn.btn-secondary {
+  background-color: #0a0a0a;
+  padding: 0.3rem 1rem;
+  color: #fff;
 }
 
-.hero-content{
-    font-size: 1.5rem;
-    padding: 7rem;
-    max-width: 70rem;   
+/* **************** Dividers *****************/
+.divider {
+  /* border-top: 0.2rem #ffac12 solid;
+      width: 3rem; */
 }
 
-.hero-content p{
+/* ********** container *********** */
+.container div {
+  margin-bottom: 4rem;
+}
+
+.hero-section {
+  background-image: url("../images/moving\ 1.png");
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  margin: 0 auto;
+}
+
+.hero-content {
+  font-size: 1.5rem;
+  padding: 7rem;
+  max-width: 65rem;
+}
+
+.hero-content p {
   margin-bottom: 3rem;
 }
 
-.hero-content .hero-content-big{
-    font-size: 5rem; 
+.hero-content .hero-content-big {
+  font-size: 5rem;
 }
 
-.hero-content .hero-content-small{
-    width: 30rem;
-    font-size: 2rem; 
+.hero-content .hero-content-small {
+  width: 30rem;
+  font-size: 2rem;
 }
 
 /* ********** Navigation *********** */
 
-nav.nav-main{
-    padding-top: 3rem;
+nav.nav-main {
+  padding-top: 3rem;
 }
 
 nav.nav-main ul {
@@ -92,4 +109,44 @@ nav.nav-main ul {
 nav.nav-main ul li {
   margin-left: 4.5rem;
   font-size: 1.2rem;
+}
+
+/* ********** hustle section *********** */
+
+.hustle-section {
+  display: inline-block;
+}
+
+.hustle-section .hustle-image img {
+  width: 30rem;
+  float: left;
+}
+
+.hustle-section .hustle-image img {
+  margin-right: 2rem;
+}
+
+.hustle-section .hustle-content {
+  /* display: flex;
+   flex-direction: column;
+   justify-content: center; */
+}
+
+.hustle-section .hustle-content p,
+.hustle-section .hustle-content h1,
+.hustle-section .hustle-content div {
+  margin-bottom: 2rem;
+}
+
+.hustle-section .hustle-content p
+{
+ font-size: 1.2rem;
+ padding: 0 15rem;
+ /* width: 35rem; */
+}
+
+.btn-tertiary{
+    color: #ffac12;
+    padding: 1rem 2rem;
+    border-radius: 0 1.5rem 0 0;
 }
