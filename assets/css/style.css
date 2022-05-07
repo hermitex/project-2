@@ -4,11 +4,13 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
-/* 
-body {  
-  margin: 0 auto;
-  overflow-x: hidden;
-} */
+
+body {
+  font-family: "Actor", sans-serif;
+
+  /* font-family: 'Adamina', serif; */
+  /* font-family: 'Poppins', sans-serif; */
+}
 
 /* *********** Background Color *********** */
 .bg-dark {
@@ -70,7 +72,14 @@ a:hover {
 
 /* **************** Dividers *****************/
 .divider {
-  border-top: 0.2rem #ffac12 solid;
+  height: 0.2rem;
+  background: linear-gradient(
+    to right,
+    #ffac12,
+    #ffac12 20%,
+    #0a0a0a 75%,
+    #0a0a0a 50%
+  );
   width: 11rem;
 }
 
@@ -134,6 +143,7 @@ nav.nav-main ul li {
 .hustle-section {
   display: flex;
   align-items: center;
+  font-family: "Adamina", serif;
 }
 
 .hustle-section .hustle-image img {
@@ -153,13 +163,18 @@ nav.nav-main ul li {
 
 .hustle-section .hustle-content p {
   font-size: 1.6rem;
-  padding-right: 5rem;
+  padding-right: 2rem;
+  color: rgb(168, 167, 167);
 }
 
 .btn-tertiary {
   color: #ffac12;
   padding: 1rem 2rem;
   border-radius: 0 1.5rem 0 0;
+}
+
+.btn.btn-secondary:hover {
+  color: #ffac12;
 }
 
 /* *********** Movers Section *********** */
@@ -312,7 +327,7 @@ nav.nav-main ul li {
 
   .hero-section {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .hero-content {
@@ -320,6 +335,7 @@ nav.nav-main ul li {
     padding-left: 2rem;
     padding-right: 2rem;
     height: 100vh;
+
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -394,22 +410,19 @@ nav.nav-main ul li {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1120px) {
-    .movers-section .movers-images.row {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-  
+  .movers-section .movers-images.row {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 368px) {
+  .hustle-section .hustle-image img {
+    width: 17rem;
+    margin-left: 0;
+  }
 
-    .hustle-section .hustle-image img {
-        width: 17rem;
-        margin-left: 0;
-    }
- 
-    .inner-movers-wrapper {
-        width: auto;
-        margin: auto;
-    }
+  .inner-movers-wrapper {
+    width: auto;
+    margin: auto;
+  }
 }
