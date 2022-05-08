@@ -1,16 +1,22 @@
 # Movers
-#### A page to showcase Movers' services and products, 08/05/2022
+#### A page to showcase Movers' services and property portfolio, 08/05/2022
 
 #### By Tiberius Mairura
 
 ## Screenshot
-![image](./assets/images/screenshot-1.png)
+![image](./assets/images/home.png)
+
+
+## Screenshot
+![image](./assets/images/properties.png)
+
 
 ## Table of Content
 - [Movers](#movers)
-      - [A page to showcase Movers' services and products, 08/05/2022](#a-page-to-showcase-movers-services-and-products-08052022)
+      - [A page to showcase Movers' services and property portfolio, 08/05/2022](#a-page-to-showcase-movers-services-and-property-portfolio-08052022)
       - [By Tiberius Mairura](#by-tiberius-mairura)
   - [Screenshot](#screenshot)
+  - [Screenshot](#screenshot-1)
   - [Table of Content](#table-of-content)
   - [Description](#description)
   - [Features](#features)
@@ -24,15 +30,15 @@
   - [Author's Details](#authors-details)
 
 ## Description
-<p>This is a responsive static page built using plain HTML and CSS to showcase Movers' after one week of learning at Moringa School Access Program.The page shows the basic information about MOringa School to help those who want to learn more about the school to do so without physically visiting the school.</p>
+<p>This is a responsive page built using plain HTML and CSS to showcase Movers' proprties and services. Movers is a real estate and moving service company.The page shows the basic information about the company and helps those who wish to buy property or move to a new residence do so easily and comfortably.</p>
 
 [Go Back to the top](#movers)
 
 ## Features
 As a user you should be able to see:
-1. Basic information about Moringa School
-2. View the past student success stories
-3. Learn more about the Moringa School Technical Mentors
+1. Basic information about Movers
+2. View the their property listings and moving services
+3. Get in touch and work with the Movers
 
 [Go Back to the top](#movers)
  ###  Requirements
