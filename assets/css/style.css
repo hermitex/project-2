@@ -232,17 +232,19 @@ nav.nav-main ul li {
   padding: 1rem 2rem;
 }
 
-.card * {
-  /* margin-bottom: 1rem; */
+.movers-section .movers-images.row .col .icon li:hover {
+  color: #ffac12;
+  cursor: pointer;
 }
+
+
 
 .movers-section .movers-images.row .col .icon li:nth-child(odd) {
   border-left: 0;
   border-right: 0;
 }
 
-.movers-section .movers-images.row .col .icon li:nth-child(even) {
-}
+
 
 .footer {
   color: #fff;
