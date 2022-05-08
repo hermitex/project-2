@@ -3,11 +3,11 @@
 
 #### By Tiberius Mairura
 
-## Screenshot
+## Home Page
 ![image](./assets/images/home.png)
 
 
-## Screenshot
+## Properties Page
 ![image](./assets/images/properties.png)
 
 
@@ -15,8 +15,8 @@
 - [Movers](#movers)
       - [A page to showcase Movers' services and property portfolio, 08/05/2022](#a-page-to-showcase-movers-services-and-property-portfolio-08052022)
       - [By Tiberius Mairura](#by-tiberius-mairura)
-  - [Screenshot](#screenshot)
-  - [Screenshot](#screenshot-1)
+  - [Home Page](#home-page)
+  - [Properties Page](#properties-page)
   - [Table of Content](#table-of-content)
   - [Description](#description)
   - [Features](#features)
