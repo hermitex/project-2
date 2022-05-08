@@ -47,7 +47,7 @@ form button.btn-primary {
 
 .wrapper {
   width: 80vw;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .wrapper > div {
@@ -103,13 +103,18 @@ textarea:focus {
   border-radius: 0.5rem;
 }
 
-.avatar .avatar-container {
+.avatar .avatar-container { 
   float: left;
+  width: 4rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
 }
 
-.avatar .avatar-container {
-  float: left;
-}
+.avatar .avatar-container img{ 
+    border-radius: 15rem;
+    width: 100%;
+   
+  }
 
 form button {
   width: 100%;
@@ -167,10 +172,12 @@ form button {
   width: 40rem;
   line-height: 1.5rem;
   border-radius: 0.7rem;
+  padding: 2rem 3rem;
 }
 
 .inner-wrapper-4 .col * {
   margin-bottom: 1rem;
+
 }
 
 .inner-wrapper-4 .col {
@@ -182,7 +189,14 @@ form button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 2rem 3rem;
+  line-height: 2rem;
 }
+
+.inner-wrapper-5 .icons.actions .fa-solid.fa-circle-check{
+   color: #ffac12;
+   margin-right: 0.5rem;
+  }
 
 /* *********** Movers Section *********** */
 .inner-wrapper-6 {
