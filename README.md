@@ -1,5 +1,5 @@
-# Moringa School Landing Page
-#### A simple static page(Moringa School Landing Page), 01/05/2022
+# Movers
+#### A page to showcase Movers' services and products, 08/05/2022
 
 #### By Tiberius Mairura
 
@@ -7,8 +7,8 @@
 ![image](./assets/images/screenshot-1.png)
 
 ## Table of Content
-- [Moringa School Landing Page](#moringa-school-landing-page)
-      - [A simple static page(Moringa School Landing Page), 01/05/2022](#a-simple-static-pagemoringa-school-landing-page-01052022)
+- [Movers](#movers)
+      - [A page to showcase Movers' services and products, 08/05/2022](#a-page-to-showcase-movers-services-and-products-08052022)
       - [By Tiberius Mairura](#by-tiberius-mairura)
   - [Screenshot](#screenshot)
   - [Table of Content](#table-of-content)
@@ -24,7 +24,7 @@
   - [Author's Details](#authors-details)
 
 ## Description
-<p>This is a responsive static page built using plain HTML and CSS to showcase my skills after one week of learning at Moringa School Access Program.The page shows the basic information about MOringa School to help those who want to learn more about the school to do so without physically visiting the school.</p>
+<p>This is a responsive static page built using plain HTML and CSS to showcase Movers' after one week of learning at Moringa School Access Program.The page shows the basic information about MOringa School to help those who want to learn more about the school to do so without physically visiting the school.</p>
 
 [Go Back to the top](#movers)
 
@@ -40,13 +40,13 @@ As a user you should be able to see:
  * Internet access
 ### Installation Process
 ****
-* Clone to this repo by running the command : git clone https://github.com/hermitex/project-1.git
+* Clone to this repo by running the command : git clone https://github.com/hermitex/project-2.git
 * Unzip the downloaded files in a folder of choice.
 * Open the index.html file from the zipped file with any browser.
  ****
 [Go Back to the top](#movers)
 ### Live Link
-- Click this link to view the live application https://hermitex.github.io/project-1/
+- Click this link to view the live application https://hermitex.github.io/project-2/
 ### Technology  Used
 * HTML -to develop the structure off the page
 * CSS - to style the User Interface
