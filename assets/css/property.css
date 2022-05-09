@@ -22,7 +22,7 @@ nav{
 nav.nav-property.nav-property ul {
   display: flex;
   flex-direction: row;
-  justify-content: flexz-end;
+  justify-content: flex-end;
   align-content: center;
   align-items: center;
 }

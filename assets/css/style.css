@@ -31,9 +31,6 @@ body {
   font-size: 3.2rem;
 }
 
-.text-primary {
-}
-
 .text-light {
   color: rgb(153, 146, 146);
 }
@@ -131,7 +128,7 @@ nav.nav-main ul {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  padding: 2rem 10rem 0;
+  padding: 1.5rem 10rem 0 0;
 }
 
 nav.nav-main ul li {
@@ -145,6 +142,12 @@ nav.nav-main ul li {
   display: flex;
   align-items: center;
   font-family: "Adamina", serif;
+  
+}
+
+.hustle-section *{
+  
+  border: red 1px solid;
 }
 
 .hustle-section .hustle-image img {
