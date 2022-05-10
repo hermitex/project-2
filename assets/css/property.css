@@ -1,5 +1,7 @@
 * {
-  /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,16 +9,15 @@ body {
   overflow-x: hidden;
 }
 .header {
- background-color: #040405 !important;
+  background-color: #040405 !important;
   padding: 2rem 10rem;
-  width: 100vw;
 
-   font-family: 'Adamina', serif ; 
+  font-family: "Adamina", serif;
   /* font-family: 'Poppins', sans-serif; */
 }
 
-nav{
-  width: 70vw;
+nav {
+  width: 80vw;
   margin: auto;
 }
 nav.nav-property.nav-property ul {
@@ -35,7 +36,7 @@ nav.nav-property.nav-property ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
- 
+
   color: #fff;
 }
 
@@ -51,12 +52,9 @@ nav.nav-property.nav-property ul li {
   padding: 1rem 2rem;
 }
 
-
 .nav-link-item.btn.btn-primary a:hover {
   color: black !important;
-
 }
-
 
 .bg-white {
   background-color: #fff;
@@ -66,12 +64,22 @@ form button.btn-primary {
   background-color: #0a0a0a !important;
 }
 
-.wrapper .container {
-  width: 70vw;
-  margin: 0 auto;
+.wrapper #container {
+  margin: 0 15rem;
+  font-family: "Actor", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
+}
 
-  /* font-family: "Actor", sans-serif !important; */
-  font-family: 'Poppins', sans-serif !important;
+.wrapper #container > div > div {
+  margin-bottom: 2rem;
+}
+
+.wrapper #container > div:first-child {
+  margin-top: 2rem;
+}
+
+.wrapper #container > div > div:last-child {
+  margin-bottom: 0;
 }
 
 .wrapper .container > div {
@@ -79,17 +87,20 @@ form button.btn-primary {
 }
 
 .inner-wrapper-1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+
   gap: 1.5rem;
 }
 
+.inner-wrapper-1 > div {
+  margin-bottom: 2rem !important;
+}
+
 .inner-wrapper-1 .left img {
-  max-width: 40vw;
+  width: 40vw;
 }
 
 .inner-wrapper-1 .right {
-  width: 20rem;
   padding: 2rem;
   float: right;
   border-radius: 0.5rem;
@@ -141,12 +152,12 @@ form button {
   width: 100%;
   padding: 1.2rem !important;
 }
-.inner-wrapper-2 .gallery-container{
+.inner-wrapper-2 .gallery-container {
   width: 100%;
 }
 .inner-wrapper-2 .gallery-container img {
   width: 5.5rem;
-  margin-right: 1rem;
+  margin-right: 0.6rem;
 }
 
 .inner-wrapper-3 {
@@ -202,17 +213,15 @@ form button {
   margin-bottom: 1rem;
 }
 
-
- .title{
+.title {
   font-size: 1.5rem !important;
- 
 }
 
-.inner-wrapper-3 .title{
+.inner-wrapper-3 .title {
   padding: 2rem 2rem;
 }
 
-.inner-wrapper-5 .title{
+.inner-wrapper-5 .title {
   padding: 2rem 0;
 }
 
@@ -222,17 +231,15 @@ form button {
   border-radius: 0.7rem;
 }
 
-.inner-wrapper-6 .title{
-  padding: 2rem 0;
+.inner-wrapper-6 .title {
   font-size: 2.5rem !important;
-  
 }
 
-.inner-wrapper-5 .columns{
-  width: 40vw;
+.inner-wrapper-5 .columns {
+  width: 100%;
   border-radius: 0.7rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   line-height: 2rem;
 }
 
@@ -244,7 +251,6 @@ form button {
 /* *********** Listings Section *********** */
 .inner-wrapper-6 {
   padding: 5rem 0;
-  /* width: 90rem; */
 }
 
 .inner-wrapper-6 .divider {
@@ -279,10 +285,6 @@ form button {
 .listings-images.row img:hover {
   cursor: pointer;
   opacity: 1;
-}
-
-.inner-wrapper-6 .title {
-  /* padding: 5rem 0 10rem; */
 }
 
 .inner-wrapper-6 .listings-images.row img {
@@ -380,8 +382,44 @@ form button {
 .social-icons ul li {
   margin-right: 1rem;
 }
+#footer-title {
+  font-size: 2.5rem !important;
+}
 
 @media screen and (max-width: 968px) {
+  nav.nav-property.nav-property {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .wrapper #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  nav.nav-property.nav-property ul li {
+    margin-right: 0;
+    padding: 0.5rem;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+  }
+
+  .secondary-nav {
+    justify-content: center;
+  }
+
   .listings-images.row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -411,34 +449,107 @@ form button {
     font-size: 2rem !important;
   }
 
+  .inner-wrapper-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  .inner-wrapper-1 .left img {
+    width: 90vw;
+  }
+
+  .inner-wrapper-1 .right {
+    width: 90vw;
+  }
+
+  .inner-wrapper-1 .right form {
+    width: 100%;
+  }
+
+  .inner-wrapper-2 {
+    width: 90vw;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .inner-wrapper-3.bg-white {
+    width: 90vw;
+  }
+
   .inner-wrapper-3 .icons .icon {
-   
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
     justify-content: space-around;
   }
 
-  .inner-wrapper-5 .columns{
-    width: 100vw;
+  .inner-wrapper-3 .icons .icon {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .inner-wrapper-3 .col .icons.actions .icon li {
+    padding: 0.5rem;
+  }
+
+  .inner-wrapper-4 {
+    width: 90vw;
+  }
+
+  .inner-wrapper-5 {
+    width: 90vw;
+  }
+
+  .inner-wrapper-5 .columns {
+    width: 100%;
     border-radius: 0.7rem;
     display: grid;
-    grid-template-columns: repeat(1, 1fr); 
+    grid-template-columns: repeat(1, 1fr);
     line-height: 2rem;
+  }
+
+  .inner-wrapper-6 {
+    width: 90vw;
+  }
+
+  .footer {
+    width: 100vw;
+  }
+
+  .wrapper .container {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* font-family: "Actor", sans-serif !important; */
+    font-family: "Poppins", sans-serif !important;
   }
 }
 
 @media screen and (max-width: 768px) {
   .listings-images.row {
-
     grid-template-columns: repeat(1, 1fr);
-  
   }
   .inner-wrapper-1 {
     grid-template-columns: repeat(1, 1fr);
-   
   }
 
-
-  .inner-wrapper-5 {
-    max-width: 40vw;
+  .inner-wrapper-5 .columns {
+    width: 100%;
+    border-radius: 0.7rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 2rem;
   }
 }
