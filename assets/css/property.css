@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 .header {
- background-color: #050505 !important;
+ background-color: #040405 !important;
   padding: 2rem 10rem;
   width: 100vw;
 
@@ -81,11 +81,11 @@ form button.btn-primary {
 .inner-wrapper-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .inner-wrapper-1 .left img {
-  max-width: 35rem;
+  max-width: 40vw;
 }
 
 .inner-wrapper-1 .right {
@@ -98,7 +98,7 @@ form button.btn-primary {
 
 .inner-wrapper-1 .right form {
   display: inline-block;
-  flex-direction: column;
+  margin: auto;
 }
 
 .details {
@@ -141,15 +141,17 @@ form button {
   width: 100%;
   padding: 1.2rem !important;
 }
-
+.inner-wrapper-2 .gallery-container{
+  width: 100%;
+}
 .inner-wrapper-2 .gallery-container img {
-  width: 5rem;
-  margin-right: 0.5rem;
+  width: 5.5rem;
+  margin-right: 1rem;
 }
 
 .inner-wrapper-3 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 40rem;
+  width: 40vw;
 
   border-radius: 0.7rem;
 }
@@ -190,7 +192,7 @@ form button {
 }
 
 .inner-wrapper-4 {
-  width: 40rem;
+  width: 40vw;
   line-height: 1.5rem;
   border-radius: 0.7rem;
   padding: 2rem 3rem;
@@ -215,7 +217,7 @@ form button {
 }
 
 .inner-wrapper-5 {
-  width: 40rem;
+  width: 40vw;
   padding: 2rem 2rem;
   border-radius: 0.7rem;
 }
@@ -227,7 +229,7 @@ form button {
 }
 
 .inner-wrapper-5 .columns{
-  width: 40rem;
+  width: 40vw;
   border-radius: 0.7rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -252,7 +254,7 @@ form button {
     #ffac12,
     #ffac12 20%,
     #0a0a0a 75%,
-    #0a0a0a 50%
+    #0a0a0a 40%
   );
   width: 11rem;
 }
@@ -408,6 +410,20 @@ form button {
   .footer #title h1.title {
     font-size: 2rem !important;
   }
+
+  .inner-wrapper-3 .icons .icon {
+   
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .inner-wrapper-5 .columns{
+    width: 100vw;
+    border-radius: 0.7rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    line-height: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -420,5 +436,9 @@ form button {
     grid-template-columns: repeat(1, 1fr);
    
   }
-  
+
+
+  .inner-wrapper-5 {
+    max-width: 40vw;
+  }
 }
