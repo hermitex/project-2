@@ -65,7 +65,7 @@ form button.btn-primary {
 }
 
 .wrapper #container {
-  margin: 0 15rem;
+  margin: 0 10rem;
   font-family: "Actor", sans-serif !important;
   font-family: "Poppins", sans-serif !important;
 }
@@ -89,7 +89,7 @@ form button.btn-primary {
 .inner-wrapper-1 {
   display: flex;
 
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .inner-wrapper-1 > div {
@@ -97,7 +97,7 @@ form button.btn-primary {
 }
 
 .inner-wrapper-1 .left img {
-  width: 40vw;
+  max-width: 47rem;
 }
 
 .inner-wrapper-1 .right {
@@ -108,7 +108,8 @@ form button.btn-primary {
 }
 
 .inner-wrapper-1 .right form {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin: auto;
 }
 
@@ -152,12 +153,24 @@ form button {
   width: 100%;
   padding: 1.2rem !important;
 }
-.inner-wrapper-2 .gallery-container {
-  width: 100%;
+.inner-wrapper-2  {
+  width: 40vw;
 }
-.inner-wrapper-2 .gallery-container img {
-  width: 5.5rem;
-  margin-right: 0.6rem;
+.inner-wrapper-2 .gallery-container {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-wrapper-2 .gallery-container img{
+  width:6rem;
+  margin-right: 1rem;
+  
+}
+
+.inner-wrapper-2 .gallery-container:last-child img {
+ 
+  margin-right: 0;
 }
 
 .inner-wrapper-3 {
@@ -283,6 +296,11 @@ form button {
   height: 17rem;
   opacity: 0.9;
   width: 100%;
+}
+
+.listings-images.row:last-child img {
+  height: 17rem;
+ 
 }
 
 .listings-images.row img:hover {
@@ -426,7 +444,7 @@ form button {
   .listings-images.row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .listings-images.row .col {
