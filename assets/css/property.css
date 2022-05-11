@@ -349,6 +349,13 @@ form button {
   line-height: 2rem;
   font-size: 1.3rem;
 }
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .footer-divider {
   border-top: 1px solid gray;
   height: 1px;
@@ -356,7 +363,7 @@ form button {
 }
 
 .footer .title {
-  font-size: 1.2rem;
+  font-size: 1.2rem; 
 }
 
 .footer #title .title {
