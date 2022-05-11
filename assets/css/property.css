@@ -289,17 +289,17 @@ form button {
   background-color: #fff;
   border-radius: 3.5rem;
   width: 20rem;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .listings-images.row img {
-  height: 17rem;
+  height: 15rem;
   opacity: 0.9;
   width: 100%;
 }
 
 .listings-images.row:last-child img {
-  height: 17rem;
+  height: 15rem;
  
 }
 
@@ -585,5 +585,11 @@ form button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     line-height: 2rem;
+  }
+
+  .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
