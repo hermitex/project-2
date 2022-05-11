@@ -266,15 +266,17 @@ form button {
 }
 
 .listings-images.row {
-  display: flex;
-  /* grid-template-columns: repeat(4, 1fr); */
+  display: flex; 
   flex-wrap: wrap;
   gap: 1.5rem;
+ 
 }
 
 .listings-images.row .col {
   background-color: #fff;
   border-radius: 3.5rem;
+  width: 20rem;
+  margin: auto;
 }
 
 .listings-images.row img {
@@ -426,6 +428,12 @@ form button {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
+
+  .listings-images.row .col {
+    
+    width: 100%;
+  }
+  
 
   .footer {
     padding: 1rem 1.5rem;
